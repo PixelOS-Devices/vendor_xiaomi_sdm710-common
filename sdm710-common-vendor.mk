@@ -326,6 +326,9 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     libjnihelper \
+    libkeymasterdeviceutils \
+    libkeymasterprovision \
+    libkeymasterutils \
     liblbs_core \
     libloc_api_v02 \
     libloc_core \
@@ -369,6 +372,7 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqseed3 \
     libqsocket \
+    libqtikeymaster4 \
     librcc \
     libril-qc-hal-qmi \
     libril-qc-logger \
@@ -558,6 +562,7 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     vendor.qti.hardware.alarm-V1.0-java \
     qti_whitelist.xml \
+    android.hardware.keymaster@4.0-service-qti.rc \
     vendor.qti.esepowermanager@1.0-service.rc \
     vendor.qti.secure_element@1.0-service.rc \
     android.hardware.gnss@2.1-service-qti.xml \
@@ -580,6 +585,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.gnss@2.1-service-qti \
+    android.hardware.keymaster@4.0-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     qcrild \
     vendor.display.color@1.0-service \
