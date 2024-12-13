@@ -181,34 +181,21 @@ PRODUCT_PACKAGES += \
     libdiag \
     libdrmfs \
     libdrmtime \
-    libdsi_netctrl \
-    libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
     libfastrpc_utf_stub \
     libgpudataproducer \
     libgsl \
-    libidl \
     libllvm-glnext \
     libllvm-qcom \
     libmdsprpc \
     libmmosal_vendor \
     libops \
     libpvr \
-    libqcci_legacy \
-    libqcmaputils \
-    libqdi \
-    libqdp \
     libqisl \
-    libqmi \
     libqmi_cci \
-    libqmi_client_helper \
-    libqmi_client_qmux \
     libqmi_common_so \
-    libqmi_csi \
     libqmi_encdec \
-    libqminvapi \
-    libqmiservices \
     librpmb \
     libsdsprpc \
     libsecureui \
@@ -337,6 +324,8 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdpmqmihal \
+    libdsi_netctrl \
+    libdsutils \
     libgdtap \
     libgeofencing \
     libgnss \
@@ -344,6 +333,7 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libhdr_tm \
     libhexagon_nn_stub \
+    libidl \
     libizat_client_api \
     libizat_core \
     libjnihelper \
@@ -376,8 +366,17 @@ PRODUCT_PACKAGES += \
     libpn553_fw \
     libqcbor \
     libqcc_file_agent \
+    libqcmaputils \
     libqcrilFramework \
+    libqdi \
     libqdma_file_agent \
+    libqdp \
+    libqmi \
+    libqmi_client_helper \
+    libqmi_client_qmux \
+    libqmi_csi \
+    libqminvapi \
+    libqmiservices \
     libqrtr \
     libqseed3 \
     libqsocket \
